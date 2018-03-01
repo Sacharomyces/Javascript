@@ -15,5 +15,5 @@ console.log(newObj);
 
 newObj.obj.a = 4;
 
-console.log(newObj.obj.a)
-console.log(myObj.obj.a)
+console.log(newObj.obj.a) // referencja do myObj.obj.a a nie kopia obiektu
+console.log(myObj.obj.a) 
