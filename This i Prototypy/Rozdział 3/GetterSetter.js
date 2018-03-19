@@ -10,7 +10,6 @@ var myObject = {
         this._a_ = value;
     }
 };
-
 //drugi:
 Object.defineProperty(myObject, "b", {
     get: function () { return this._b_; },
